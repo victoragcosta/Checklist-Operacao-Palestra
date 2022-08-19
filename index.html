@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      body{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .container-checklist{
+          margin-bottom: 10px;
+          margin-left: 2px;
+      }
+
+      .container-links{
+          margin-top: 50px;
+          margin-bottom: 20px;
+          width: 100vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .collapse, .collapsing {
+        display: grid;
+        gap: 0.5rem;
+      }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Checklist</title>
+  </head>
+  <body>
+    <h3>Checklist</h3>
+    <div class="container-checklist">
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck0">
+          <label class="form-check-label" for="defaultCheck0">
+              Verificar se os arquivos estão no Drive e baixar
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+          <label class="form-check-label" for="defaultCheck4">
+              Verificar onde estão as plaquinhas de tempo
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+              Garantir translado do palestrante pra Rua ENEJ
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+          <label class="form-check-label" for="defaultCheck2">
+              Receber na Rua ENEJ
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+          <label class="form-check-label" for="defaultCheck3">
+              Ir para a Sala de Palestrante
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+          <label class="form-check-label" for="defaultCheck4">
+              Alinhar sobre os horários com o Palestrante
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+          <label class="form-check-label" for="defaultCheck5">
+              Ir com antecedência para a Sala Paralela
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+          <label class="form-check-label" for="defaultCheck6">
+              Verificar o PPT, som e vídeo
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck61">
+          <label class="form-check-label" for="defaultCheck61">
+              Alinhar sobre as plaquinhas de tempo
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+          <label class="form-check-label" for="defaultCheck7">
+              Separar plaquinhas no seu lugar
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+          <label class="form-check-label" for="defaultCheck8">
+              Abrir documento de perguntas extras
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+          <label class="form-check-label" for="defaultCheck9">
+              Apresentar palestrante
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+          <label class="form-check-label" for="defaultCheck9">
+              Controlar tempo
+          </label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+          <label class="form-check-label" for="defaultCheck9">
+              Verificar se palestrante precisa de algo ao final
+          </label>
+      </div>
+    </div>
+    <div class="container-links">
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Links uteis
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <a href="https://drive.google.com/file/d/1bYGRoNnru3PRD-avbca0IosDNdtVEieR/view?usp=sharing" target="_blank">Mapa</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://docs.google.com/presentation/d/1QoyPGiLdR7L0XneagbKqmkuESIVTpfcE3Yob5pc_x9U/mobilepresent?slide=id.g143842b6f7f_0_8" target="_blank">Lineup</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://docs.google.com/spreadsheets/d/1_tAT6Fevg137Ofh3emY3T0Aa5xdTCvvj0kQs8OmHbnU/edit?usp=sharing" target="_blank">Planilha Lineup</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://docs.google.com/spreadsheets/d/1fHC_5ngO35zHrt-CIlmXOGKb6fcPx5KO-ESwtNT7CBc/edit?usp=sharing" target="_blank">Alocações</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://docs.google.com/spreadsheets/d/1wIW9Y4AX43iCdRIN_EEODbapxR8DmTxpiSl85zTXKgQ/edit?usp=sharing" target="_blank">Voos</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://docs.google.com/spreadsheets/d/1dXy0YBhqSS9zaXzCdKTYmAtisSEIXPMzLwRwOWIUNdM/edit?usp=sharing" target="_blank">Receptivos</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://drive.google.com/drive/folders/1MYq0A-CQRb1o9GWHTJcw4aS9lzGYXKj7?usp=sharing" target="_blank">Pasta apresentações</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://drive.google.com/drive/folders/1U1Bqqw7xeWwGE4xyyNVSD4IPCogkvrOt?usp=sharing" target="_blank">Perguntas reservas</a>
+        </div>
+        <div class="card card-body">
+          <a href="https://docs.google.com/spreadsheets/d/1LxtJWCWuMrUs3Ifllhd5BlZ3bn6nGkD7MrrinnbO_UA/edit?usp=sharing" target="_blank">Bios</a>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
